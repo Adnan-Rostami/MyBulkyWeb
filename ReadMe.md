@@ -1,5 +1,7 @@
-# Bulky - Enterprise E-Commerce System
+Bulky – Scalable E-Commerce Backend (.NET 8)
+Enterprise-grade E-Commerce API built with ASP.NET Core 8, focusing on security, performance, and clean architecture principles.
 
+<<<<<<< HEAD
 Bulky is a scalable E-Commerce backend built with **ASP.NET Core .NET 8** using **Layered Architecture** and common enterprise backend patterns.
 
 ## Key Features
@@ -41,3 +43,17 @@ Bulky is a scalable E-Commerce backend built with **ASP.NET Core .NET 8** using 
 2. Run:
 ```bash
 docker-compose up --build
+=======
+Highlights
+Designed RESTful APIs with JWT Authentication and dynamic permission-based authorization.
+Integrated Elasticsearch for high-performance product search and indexing.
+Implemented rate limiting to prevent brute-force and abuse attacks.
+Built background services for automated token cleanup and system synchronization.
+Applied structured logging with Serilog.
+Containerized full stack using Docker & Docker Compose.
+Tech Stack
+.NET 8 / ASP.NET Core Web API
+SQL Server + EF Core
+Elasticsearch
+Docker
+>>>>>>> f0ba4a0b42c846eb021f9065124e0c22d8f6f9c4
